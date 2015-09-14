@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="senacrs.sistemalocadora10"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Menu_Locadora"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Lista_Clientes"
+            android:label="@string/title_activity_lista__clientes" >
+        </activity>
+        <activity
+            android:name=".Lista_Funcionarios"
+            android:label="@string/title_activity_lista__funcionarios" >
+        </activity>
+        <activity
+            android:name=".Lista_Filmes"
+            android:label="@string/title_activity_lista__filmes" >
+        </activity>
+        <activity
+            android:name=".Lista_Locacao_Filme"
+            android:label="@string/title_activity_lista__locacao__filme" >
+        </activity>
+        <activity
+            android:name=".Adicionar_Funcionarios"
+            android:label="@string/title_activity_adicionar__funcionarios" >
+        </activity>
+        <activity
+            android:name=".Adicionar_Clientes"
+            android:label="@string/title_activity_adicionar__clientes" >
+        </activity>
+        <activity
+            android:name=".Adicionar_Filmes"
+            android:label="@string/title_activity_adicionar__filmes" >
+        </activity>
+        <activity
+            android:name=".Adicionar_Locacao"
+            android:label="@string/title_activity_adicionar__locacao" >
+        </activity>
+    </application>
+
+</manifest>
